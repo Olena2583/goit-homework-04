@@ -1,0 +1,426 @@
+:root {
+  --color-primary-rand-iris: #4d5ae5;
+  --color-pressed-state-ocean: #404bbf;
+  --color-dark-navy-blue: #2e2f42;
+  --color-success-green: #31d0aa;
+  --color-text-slate: #434455;
+  --color-subtle-text-light-slate: #8e8f99;
+  --color-accent-cornflower: #e7e9fc;
+  --color-light-cloud: #f4f4fd;
+  --color-modal-overlay-navy-blue-modal: #2e2f42;
+  --color-hero-background-grey: rgba(46, 47, 66, 0.7);
+  --color-white-background-white: #ffffff;
+  --color-modal-background-dairy: #fcfcfc;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+/*-- --style----- */
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* --------------header----------------  */
+.header {
+  border-bottom: 1px solid var(--color-accent-cornflower);
+  display: flex;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1158px;
+  padding: 0 15px;
+}
+
+.container-header {
+  display: flex;
+  align-items: center;
+}
+.novigation {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-primary-rand-iris);
+  display: block;
+  margin-right: 76px;
+}
+
+.logo-studio {
+  color: var(--color-dark-navy-blue);
+}
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.header-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-dark-navy-blue);
+  padding: 24px 0;
+  display: block;
+}
+
+.address {
+  font-style: normal;
+  margin-left: auto;
+}
+
+.header-lists {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.list-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text-slate);
+}
+
+/* -------focus hover header-------- */
+
+.header-menu-item .header-link:focus {
+  color: var(--color-pressed-state-ocean);
+}
+
+.header-menu-item .header-link:hover {
+  color: var(--color-pressed-state-ocean);
+}
+
+.header-lists .list-link:hover,
+.list-link:focus {
+  color: var(--color-pressed-state-ocean);
+}
+
+/* --------sectione one index------------- */
+
+.section-one {
+  background-color: var(--color-dark-navy-blue);
+  width: 1470;
+  height: 600;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.main-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  background-color: var(--color-modal-overlay-navy-blue-modal);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+  align-items: center;
+  max-width: 496px;
+}
+.hero-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-white-background-white);
+  cursor: pointer;
+  background-color: var(--color-dark-navy-blue);
+  background: var(--color-primary-rand-iris);
+  padding: 16px 32px;
+  margin: 0 auto;
+  border-radius: 4px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  align-items: center;
+  border: none;
+}
+
+.section-one .hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--color-pressed-state-ocean);
+}
+
+/*------------- section two index ---------*/
+
+.main-section-two {
+  padding: 120px 0;
+}
+
+.section-two-list {
+  display: flex;
+  gap: 24px;
+}
+.section-two-link {
+  width: 264px;
+}
+.section-two-target {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-dark-navy-blue);
+  margin-bottom: 8px;
+}
+.section-two-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text-slate);
+}
+
+/* ---------- section three index--------- */
+
+.main-section-three {
+  padding-bottom: 120px;
+}
+.section-three-target {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  color: var(--color-dark-navy-blue);
+  margin-bottom: 72px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.section-three-list {
+  background-color: var(--color-white-background-white);
+  display: flex;
+  gap: 24px;
+}
+
+/*---------- section foure index--------- */
+
+.main-section-foure {
+  background-color: var(--color-light-cloud);
+  margin-right: auto;
+  margin-left: auto;
+  padding: 120px 0;
+}
+
+.section-foure-target {
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-dark-navy-blue);
+  background-color: var(--color-light-cloud);
+  margin-bottom: 72px;
+}
+.section-foure-list {
+  display: flex;
+  gap: 24px;
+}
+
+.foure-img {
+  background-color: var(--color-white-background-white);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.worker {
+  padding: 32px 16px;
+}
+.section-foure-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-dark-navy-blue);
+  margin-bottom: 8px;
+  text-align: center;
+}
+.section-foure-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text-slate);
+  text-align: center;
+}
+
+/*------------- footer------------- */
+
+.footer {
+  background: var(--color-dark-navy-blue);
+  padding: 100px 0;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-primary-rand-iris);
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.logo {
+  color: var(--color-light-cloud);
+}
+.footer-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-light-cloud);
+  background: var(--color-dark-navy-blue);
+  width: 264px;
+}
+
+/*---------- section porfolio--------- */
+.section {
+  text-align: center;
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.section-menu {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 72px;
+}
+
+.item {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--color-white-background-white);
+  color: var(--color-primary-rand-iris);
+  background-color: var(--color-light-cloud);
+  padding: 12px 24px;
+  border: 1px solid var(--color-accent-cornflower);
+  border-radius: 4px;
+}
+
+.section-photo-list {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: start;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.photo {
+  width: calc((100% - 48px) / 3);
+}
+
+.team {
+  padding: 32px 16px;
+  border: 1px solid var(--color-accent-cornflower);
+  border-top: none;
+}
+
+.main-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-dark-navy-blue);
+  margin-bottom: 8px;
+}
+
+.main-text {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text-slate);
+}
+
+/* ---------hover focus portfolio------------- */
+.menu-target .item:hover {
+  background-color: var(--color-pressed-state-ocean);
+  border: 1px solid transparent;
+}
+.menu-target .item:focus {
+  background-color: var(--color-pressed-state-ocean);
+  border: 1px solid transparent;
+}
+.section-menu .item:hover,
+.item:focus {
+  background: var(--color-dark-navy-blue);
+  color: var(--color-white-background-white);
+}
