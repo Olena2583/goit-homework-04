@@ -218,6 +218,9 @@ img {
 
 /*------------- section two index ---------*/
 
+.icon-two {
+}
+
 .section-two-list {
   display: flex;
   align-items: center;
@@ -226,7 +229,6 @@ img {
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
-  gap: 24px;
 }
 .main-section-two {
   padding: 120px 0;
@@ -234,10 +236,6 @@ img {
 
 .section-two-link {
   width: 264px;
-}
-.visually-hidden-icon {
-  padding: 24px 100px;
-  background-color: var(--color-light-cloud);
 }
 .section-two-target {
   font-weight: 500;
