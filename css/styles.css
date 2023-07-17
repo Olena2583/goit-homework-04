@@ -208,6 +208,7 @@ img {
   height: 56px;
   align-items: center;
   border: none;
+  transition: background-color 250ms (0.4, 0, 0.2, 1);
 }
 
 .section-one .hero-btn:hover,
@@ -217,14 +218,20 @@ img {
 
 /*------------- section two index ---------*/
 
+.section-two-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  gap: 24px;
+}
 .main-section-two {
   padding: 120px 0;
 }
 
-.section-two-list {
-  display: flex;
-  gap: 24px;
-}
 .section-two-link {
   width: 264px;
 }
